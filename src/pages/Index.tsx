@@ -48,7 +48,7 @@ const Index = () => {
           {/* Countdown */}
           <div className="py-8">
             <h2 className="text-2xl md:text-3xl font-bold mb-6 text-foreground">
-              Tournament Starts In
+             Registration Live Now
             </h2>
             <CountdownTimer />
           </div>
