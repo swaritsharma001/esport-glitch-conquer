@@ -40,9 +40,9 @@ const CountdownTimer = () => {
   return (
     <div className="flex gap-4 justify-center items-center">
       <TimeBox value={timeLeft.hours} label="Hours" />
-      <span className="text-4xl text-primary font-bold">:</span>
+      <span className="text-4xl text-foreground font-bold">:</span>
       <TimeBox value={timeLeft.minutes} label="Minutes" />
-      <span className="text-4xl text-primary font-bold">:</span>
+      <span className="text-4xl text-foreground font-bold">:</span>
       <TimeBox value={timeLeft.seconds} label="Seconds" />
     </div>
   );
@@ -51,7 +51,7 @@ const CountdownTimer = () => {
 const TimeBox = ({ value, label }: { value: number; label: string }) => (
   <div className="flex flex-col items-center">
     <div className="bg-card border-2 border-primary rounded-lg p-4 min-w-[80px] shadow-[0_0_20px_rgba(0,217,255,0.3)]">
-      <span className="text-4xl md:text-5xl font-bold text-primary">
+      <span className="text-4xl md:text-5xl font-bold text-foreground">
         {value.toString().padStart(2, "0")}
       </span>
     </div>

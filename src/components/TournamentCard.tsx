@@ -27,7 +27,7 @@ const TournamentCard = ({
           </div>
         </div>
         
-        <h3 className="text-3xl font-bold text-center mb-6 text-primary uppercase tracking-wider">
+        <h3 className="text-3xl font-bold text-center mb-6 text-foreground uppercase tracking-wider">
           {mode}
         </h3>
         
@@ -38,7 +38,7 @@ const TournamentCard = ({
           </div>
           
           <div className="py-3 border-y border-primary/30">
-            <p className="text-2xl font-bold text-primary">{entryFee} RS/SLOT</p>
+            <p className="text-2xl font-bold text-foreground">{entryFee} RS/SLOT</p>
           </div>
           
           <div className="space-y-2">

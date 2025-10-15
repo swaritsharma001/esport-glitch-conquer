@@ -36,16 +36,13 @@ const Index = () => {
           </div>
 
           {/* Title */}
-          <h1 className="text-5xl md:text-7xl font-bold text-primary uppercase tracking-wider drop-shadow-[0_0_20px_rgba(0,217,255,0.5)]">
+          <h1 className="text-5xl md:text-7xl font-bold text-foreground uppercase tracking-wider drop-shadow-[0_0_20px_rgba(0,217,255,0.5)]">
             Free Fire Tournament
           </h1>
 
           {/* Motto */}
           <p className="text-xl md:text-3xl text-foreground font-semibold tracking-wide">
-            <span className="text-primary">Glitch.</span>{" "}
-            <span className="text-secondary">Loot.</span>{" "}
-            <span className="text-primary">Conquer.</span>{" "}
-            <span className="text-secondary">Repeat.</span>
+            Glitch. Loot. Conquer. Repeat.
           </p>
 
           {/* Countdown */}
@@ -82,11 +79,11 @@ const Index = () => {
         </div>
         
         <div className="relative z-10 max-w-7xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-primary uppercase tracking-wider">
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-foreground uppercase tracking-wider">
             Choose Your Battle
           </h2>
           <p className="text-center text-muted-foreground mb-12 text-lg">
-            Registration Starts: <span className="text-primary font-bold">15 October</span> | Venue: <span className="text-primary font-bold">Online</span>
+            Registration Starts: <span className="text-foreground font-bold">15 October</span> | Venue: <span className="text-foreground font-bold">Online</span>
           </p>
 
           <div className="grid md:grid-cols-3 gap-8 mb-12">
@@ -131,7 +128,7 @@ const Index = () => {
       {/* Video Section */}
       <section className="py-20 px-4 bg-background">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 text-primary uppercase tracking-wider">
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 text-foreground uppercase tracking-wider">
             Watch Highlights
           </h2>
           <div className="relative rounded-lg overflow-hidden border-4 border-primary shadow-[0_0_50px_rgba(0,217,255,0.3)]">
