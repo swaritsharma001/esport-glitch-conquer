@@ -50,7 +50,7 @@ const Index = () => {
             <h2 className="text-2xl md:text-3xl font-bold mb-6 text-foreground">
              Registration Live Now
             </h2>
-            <CountdownTimer />
+            
           </div>
 
           {/* CTA Button */}
